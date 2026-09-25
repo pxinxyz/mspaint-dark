@@ -35,10 +35,23 @@ The mod provides configurable options in Windhawk:
 
 ## Installation
 
-1. Install [Windhawk](https://windhawk.net/) if you haven't already.
-2. In Windhawk, open the **Developer Channel** or go to **Advanced -> Create Local Mod**.
-3. Copy the contents of [`mspaint-dark.wh.cpp`](mspaint-dark.wh.cpp) into the editor.
-4. Click **Compile Mod** and enable it.
+### Method 1: Via Windhawk UI
+1. Open the **Windhawk** application.
+2. In the **Home** or **Explore** tab, click the round floating **"Create a New Mod"** button in the bottom-right corner.
+   *(Note: If you do not see this button, open Windhawk **Settings** and make sure **"Hide all development-related options"** is unchecked).*
+3. Replace the template code with the code from [`mspaint-dark.wh.cpp`](mspaint-dark.wh.cpp).
+4. Click **Compile Mod** in the sidebar.
+
+### Method 2: Direct Folder Placement
+Windhawk stores mods in `C:\ProgramData\Windhawk`:
+
+- **Mod Source Files**:
+  ```text
+  C:\ProgramData\Windhawk\ModsSource\mspaint-dark.wh.cpp
+  ```
+- **Compiled Binaries**:
+  - 64-bit: `C:\ProgramData\Windhawk\Engine\Mods\64\`
+  - 32-bit: `C:\ProgramData\Windhawk\Engine\Mods\32\`
 
 ## License
 
