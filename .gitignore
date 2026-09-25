@@ -1,0 +1,12 @@
+# Build & Object Files
+*.dll
+*.obj
+*.lib
+*.exp
+*.pdb
+
+# Logs & Temp Files
+*.log
+*.txt
+.vscode/
+.idea/
